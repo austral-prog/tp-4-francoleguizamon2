@@ -1,4 +1,5 @@
 import math
+import math
 
 def ecuacion(m, b, x):
     resultado = m * x + b
@@ -15,13 +16,13 @@ def line():
     print('El coeficiente X2 de su ecuación de la recta es:', x2)
     print('')
     print('Para la siguiente ecuación:')
-    print('\tY =', a, 'X +', b)
+    print(f'\tY = {a}X + {b}')
     print('')
     print('Dados los siguientes puntos:')
-    punto1 = x1, ecuacion(2.3, -4, x1)
+    punto1 = x1, ecuacion(a, b, x1)
     print('\tP1', (punto1))
-    punto2 = x2, ecuacion(2.3, -4, x2)
+    punto2 = x2, ecuacion(a, b, x2)
     print('\tP2', (punto2))
     print('')
-    print('La distancia entre ellos es: ', math.dist(punto1, punto2))
+    print('La distancia entre ellos es:', math.dist(punto1, punto2))
 line()
