@@ -5,10 +5,10 @@ def ecuacion(m, b, x):
     return resultado
 
 def line():
-    a = 2.3
-    b = -4
-    x1 = 50
-    x2 = -32.9
+    a = float(input())
+    b = float(input())
+    x1 = float(input())
+    x2 = float(input())
     print('Ingrese el coeficiente A:', a)
     print('Ingrese el coeficiente B:', b)
     print('Ingrese el coeficiente X1:', x1)
