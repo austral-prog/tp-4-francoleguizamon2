@@ -1,5 +1,4 @@
 import math
-import math
 
 def ecuacion(m, b, x):
     resultado = m * x + b
@@ -25,4 +24,3 @@ def line():
     print('\tP2', (punto2))
     print('')
     print('La distancia entre ellos es:', math.dist(punto1, punto2))
-line()
